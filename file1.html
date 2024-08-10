@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOX MODEL</title>
+    <style>
+      .block1{
+        background-color: aqua;
+        width: 130px;
+        padding: 20px 20px 20px 20px;
+        border: 2px solid aqua;
+        margin: auto;
+        height: 120px;
+      }
+      #block2{
+        background-color: chocolate;
+        width: 50px;
+        height: 20px;
+        padding: 30px 30px 30px 30px;
+        margin:auto;
+      }
+      #block3{
+        background-color: blue;
+        padding:10px 10px 10px 10px ;
+        height:200px ;
+        width: 200px;
+        margin: auto;
+      }
+      #block4{
+        background-color: gold;
+        height: 270px;
+        width: 300px;
+        padding:10px 10px 10px 10px ;
+        margin: auto;
+        border: 1px solid black;
+      }
+    </style>
+</head>
+<body> 
+<div id="block4">margin
+    <div id="block3">border
+    <div class="block1">padding
+    <div id="block2">content</div>
+     </div>
+    </div>
+</div>
+
+</body>
+</html>
